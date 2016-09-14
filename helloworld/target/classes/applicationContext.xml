@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>  
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!-- 
+*@file_Name: applicationContext.xml
+*@Author: Shwetali
+*@Date: 14-09-2016
+*@purpose: xml file usend for spring programs.
+ -->
+ 
 <beans  
     xmlns="http://www.springframework.org/schema/beans"  
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
