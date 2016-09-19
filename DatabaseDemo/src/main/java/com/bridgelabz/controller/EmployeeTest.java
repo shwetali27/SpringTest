@@ -27,10 +27,10 @@ public class EmployeeTest {
 			System.out.println("Updated succesfully");
 		
 		Employee employee = new Employee(); 
-	    employee.setId(1); 
-	    int status2=employeeDao.deleteEmployee(employee);
-	    if(status2==1)
-	    	System.out.println("Deleted succesfully");
+		employee.setId(1); 
+		int status2=employeeDao.deleteEmployee(employee);
+		if(status2==1)
+		System.out.println("Deleted succesfully");
 		
 	}
 }
