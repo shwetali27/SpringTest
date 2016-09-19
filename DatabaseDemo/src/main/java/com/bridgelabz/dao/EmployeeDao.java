@@ -38,8 +38,8 @@ public class EmployeeDao {
 	}
 	
 	//deleting from the database
-	public int deleteEmployee(Employee e){  
-	    String query="delete from employee where id='"+e.getId()+"' ";  
-	    return jdbcTemplate.update(query);  
+		public int deleteEmployee(Employee e){  
+		String query="delete from employee where id='"+e.getId()+"' ";  
+		return jdbcTemplate.update(query);  
 	} 
 }

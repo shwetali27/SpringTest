@@ -39,14 +39,13 @@ public class EmployeeTest {
 		if(status2==1)
 			System.out.println("Deleted successfully");
 			
-	    //show data
-	    System.out.println("\nValues inside Database:");
-	    System.out.println("ID	Name		Salary\n-----------------------------------");
-	    ArrayList<Employee> list=employeeShowDao.getAllEmployees();  
-        
-	    for(Employee e:list)  
-	        System.out.println(e.getId()+"	"+e.getName()+"		"+e.getSalary()+"	Rs.");  
-
+		//show data
+		System.out.println("\nValues inside Database:");
+		System.out.println("ID	Name		Salary\n-----------------------------------");
+		ArrayList<Employee> list=employeeShowDao.getAllEmployees();  
+				
+		for(Employee e:list)  
+			System.out.println(e.getId()+"	"+e.getName()+"		"+e.getSalary()+"	Rs.");  
 		
 	}
 }
